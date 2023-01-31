@@ -15,7 +15,7 @@
 <body>
     <div class="container app-main">
         <div class="searchInputBox">
-        <h2 class="text-center "> Get details from pincode</h2>
+        <h2 class="text-center "><u> Postal Pincode</u></h2>
        <div>
             <input type="number"class="text-box mt-2"id="pincode"placeholder="Enter valid pincode...">
             <button class="btn  mt-3 mb-3"type="submit" onclick="search()">Search</button>
@@ -41,20 +41,20 @@ function search(){
      Country=details[0].PostOffice[0].Country
 
      result.innerHTML=` <div class="content">
-                <p>Post name--${name}</p>
+                <p><strong>Post Name</strong> :${name}</p></li>
              </div>
              <div class="content">
-                <p>Branch type--${branchtype}</p>
+                <p><strong>Branch Type</strong> :${branchtype}</p>
              </div>
             
              <div class="content">
-                <p>Ditsrict--${District}</p>
+                <p><strong>District</strong> :${District}</p>
              </div >
              <div class="content">
-                <p>State--${State}</p>
+                <p><strong>State</strong> :${State}</p>
              </div>
              <div class="content">
-                <p>Country-${Country}</p>
+                <p><strong>Country</strong> :${Country}</p>
              </div>`
     
     
