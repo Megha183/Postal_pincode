@@ -12,8 +12,8 @@ body {
     background-size: cover;
     font-family: 'Crimson Pro', serif;
     background-image: linear-gradient(to right, #735aa0, #3a866e);
-    
-
+    background-attachment: fixed;
+   
 }
     
     h2{
