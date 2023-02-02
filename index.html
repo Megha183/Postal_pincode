@@ -17,8 +17,8 @@
 </head>
 
 <body>
-   <div class="container app-main">
-      <div class="searchInputBox">
+   <div class="container app-main ">
+      <div class="searchInputBox ">
          <h2 class="text-center  ">
             <img src="./images/postbox.png" alt="" height="40" width="40">
             Postal Pincode
@@ -41,7 +41,7 @@
          .then(data => displaydata(data))
 
       function displaydata(details) {
-
+       
          name = details[0].PostOffice[0].Name;
          branchtype = details[0].PostOffice[0].BranchType;
          District = details[0].PostOffice[0].District
